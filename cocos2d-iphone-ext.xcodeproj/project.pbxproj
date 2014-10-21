@@ -96,7 +96,6 @@
 		A66C5837193A0C87009D2BD4 /* CCSpineSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C5827193A0C87009D2BD4 /* CCSpineSprite.m */; };
 		A66C5838193A0C87009D2BD4 /* CCSpineTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C5829193A0C87009D2BD4 /* CCSpineTexture.m */; };
 		A66C5839193A0C87009D2BD4 /* CCSpineTimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C582B193A0C87009D2BD4 /* CCSpineTimeline.m */; };
-		A67317661948CB4D005D839D /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A66A4D221948C51A005FF794 /* libcocos2d.a */; };
 		A68895AF1949A8B4002950DD /* CCTransformationNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A68895AE1949A8B4002950DD /* CCTransformationNode.m */; };
 		A6994F7C194A2D4F00B97481 /* CCCropNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A6994F7B194A2D4F00B97481 /* CCCropNode.m */; };
 		A6994F81194A2F3D00B97481 /* CCCropNodeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A6994F80194A2F3D00B97481 /* CCCropNodeTest.m */; };
@@ -106,22 +105,47 @@
 		A6994F8B194A2FBB00B97481 /* spineNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A6994F89194A2FBB00B97481 /* spineNode.m */; };
 		A6D883A8193C7BA500CE3922 /* cards.classic.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6D883A6193C7BA500CE3922 /* cards.classic.plist */; };
 		A6D883A9193C7BA500CE3922 /* cards.classic.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D883A7193C7BA500CE3922 /* cards.classic.png */; };
+		D3950AD019F5D69100A72CF7 /* CCStaticNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D3950ACE19F5D69100A72CF7 /* CCStaticNode.m */; };
+		D3950AD119F5D69100A72CF7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D3950ACF19F5D69100A72CF7 /* README.md */; };
+		D3950AD419F5DBCF00A72CF7 /* CCStaticNodeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3950AD319F5DBCF00A72CF7 /* CCStaticNodeTest.m */; };
+		D3950AED19F5DFC900A72CF7 /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3950AE419F5DFB100A72CF7 /* libcocos2d.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A66A4D211948C51A005FF794 /* PBXContainerItemProxy */ = {
+		D3950AE319F5DFB100A72CF7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A66A4D1B1948C51A005FF794 /* cocos2d-ios.xcodeproj */;
+			containerPortal = D3950AD619F5DFB000A72CF7 /* cocos2d.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 5018F24D0DFDEAC400C013A5;
-			remoteInfo = cocos2d;
+			remoteInfo = "cocos2d-ios";
 		};
-		A6C97E5D1948C83700942713 /* PBXContainerItemProxy */ = {
+		D3950AE519F5DFB100A72CF7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A66A4D1B1948C51A005FF794 /* cocos2d-ios.xcodeproj */;
+			containerPortal = D3950AD619F5DFB000A72CF7 /* cocos2d.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2FEB74F194F6C9E00FC0574;
+			remoteInfo = cocos2dAndroid;
+		};
+		D3950AE719F5DFB100A72CF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3950AD619F5DFB000A72CF7 /* cocos2d.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BF3267A195F8D8800D9A51A;
+			remoteInfo = cocos2dJava;
+		};
+		D3950AE919F5DFB100A72CF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3950AD619F5DFB000A72CF7 /* cocos2d.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A4037A819E37038007B6E8F;
+			remoteInfo = "cocos2d-mac";
+		};
+		D3950AEB19F5DFBD00A72CF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3950AD619F5DFB000A72CF7 /* cocos2d.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 5018F24C0DFDEAC400C013A5;
-			remoteInfo = cocos2d;
+			remoteInfo = "cocos2d-ios";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -131,7 +155,7 @@
 		0E21D30B198A484600E84AB1 /* CCSpriteMultiTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCSpriteMultiTouch.m; path = Extensions/CCSpriteMultiTouch/CCSpriteMultiTouch.m; sourceTree = SOURCE_ROOT; };
 		0E21D30E198A637900E84AB1 /* CCSpriteMultiTouchTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCSpriteMultiTouchTest.m; path = Classes/Tests/CCSpriteMultiTouchTest.m; sourceTree = "<group>"; };
 		0E57EA3719C6CF83008CBC9E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		0E57EA3919C6CF9B008CBC9E /* CCSpriteGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCSpriteGrid.h; path = ../Extensions/CCSpriteGrid/CCSpriteGrid.h; sourceTree = "<group>"; };
+		0E57EA3919C6CF9B008CBC9E /* CCSpriteGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSpriteGrid.h; sourceTree = "<group>"; };
 		0E57EA3A19C6CF9B008CBC9E /* CCSpriteGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSpriteGrid.m; sourceTree = "<group>"; };
 		0E57EA3D19C6D272008CBC9E /* CCSpriteGridTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCSpriteGridTest.m; path = Classes/Tests/CCSpriteGridTest.m; sourceTree = "<group>"; };
 		0E57EA4019C6D5D4008CBC9E /* pebbles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pebbles.png; sourceTree = "<group>"; };
@@ -218,7 +242,6 @@
 		A6271290193769A900196BD3 /* TilesAtlassed-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TilesAtlassed-ipadhd.png"; path = "Resources/Testbed/TilesAtlassed-ipadhd.png"; sourceTree = "<group>"; };
 		A6271291193769A900196BD3 /* TilesAtlassed.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TilesAtlassed.plist; path = Resources/Testbed/TilesAtlassed.plist; sourceTree = "<group>"; };
 		A6271292193769A900196BD3 /* TilesAtlassed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TilesAtlassed.png; path = Resources/Testbed/TilesAtlassed.png; sourceTree = "<group>"; };
-		A66A4D1B1948C51A005FF794 /* cocos2d-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "cocos2d-ios.xcodeproj"; path = "Externals/cocos2d-ios.xcodeproj"; sourceTree = "<group>"; };
 		A66C580C193A0C69009D2BD4 /* CCNodeTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCNodeTag.h; path = Extensions/CCNodeTag/CCNodeTag.h; sourceTree = SOURCE_ROOT; };
 		A66C580D193A0C69009D2BD4 /* CCNodeTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCNodeTag.m; path = Extensions/CCNodeTag/CCNodeTag.m; sourceTree = SOURCE_ROOT; };
 		A66C580F193A0C77009D2BD4 /* CCDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCDictionary.h; path = Extensions/CCDictionary/CCDictionary.h; sourceTree = SOURCE_ROOT; };
@@ -260,6 +283,11 @@
 		A6D883A6193C7BA500CE3922 /* cards.classic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = cards.classic.plist; path = Resources/Cards/cards.classic.plist; sourceTree = "<group>"; };
 		A6D883A7193C7BA500CE3922 /* cards.classic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cards.classic.png; path = Resources/Cards/cards.classic.png; sourceTree = "<group>"; };
 		A6F460E0193A0FE200498203 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		D3950ACD19F5D69100A72CF7 /* CCStaticNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCStaticNode.h; sourceTree = "<group>"; };
+		D3950ACE19F5D69100A72CF7 /* CCStaticNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCStaticNode.m; sourceTree = "<group>"; };
+		D3950ACF19F5D69100A72CF7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D3950AD319F5DBCF00A72CF7 /* CCStaticNodeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCStaticNodeTest.m; path = Classes/Tests/CCStaticNodeTest.m; sourceTree = "<group>"; };
+		D3950AD619F5DFB000A72CF7 /* cocos2d.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d.xcodeproj; path = Externals/cocos2d.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,7 +295,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A67317661948CB4D005D839D /* libcocos2d.a in Frameworks */,
+				D3950AED19F5DFC900A72CF7 /* libcocos2d.a in Frameworks */,
 				A627126219375A2200196BD3 /* GLKit.framework in Frameworks */,
 				A6270E66193757E400196BD3 /* OpenAL.framework in Frameworks */,
 				A6270E6C193757E400196BD3 /* UIKit.framework in Frameworks */,
@@ -298,6 +326,7 @@
 			isa = PBXGroup;
 			children = (
 				0E57EA3719C6CF83008CBC9E /* README.md */,
+				0E57EA3919C6CF9B008CBC9E /* CCSpriteGrid.h */,
 				0E57EA3A19C6CF9B008CBC9E /* CCSpriteGrid.m */,
 			);
 			name = CCSpriteGrid;
@@ -483,14 +512,6 @@
 			name = TestBed;
 			sourceTree = "<group>";
 		};
-		A66A4D1C1948C51A005FF794 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A66A4D221948C51A005FF794 /* libcocos2d.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		A66C5801193A0BF0009D2BD4 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -501,6 +522,7 @@
 				0E9A0929199CDDD10049E409 /* CCLayerSmoothLineTest.m */,
 				0E57EA3D19C6D272008CBC9E /* CCSpriteGridTest.m */,
 				A6994F7E194A2E2800B97481 /* Test helper classes */,
+				D3950AD319F5DBCF00A72CF7 /* CCStaticNodeTest.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -508,7 +530,6 @@
 		A66C5808193A0C24009D2BD4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				0E57EA3919C6CF9B008CBC9E /* CCSpriteGrid.h */,
 				0E57EA3619C6CF83008CBC9E /* CCSpriteGrid */,
 				0EF602F9199CDC4A007AEBD9 /* CCLayerSmoothLine */,
 				0E21D303198A45F800E84AB1 /* CCSpriteMultiTouch */,
@@ -517,6 +538,7 @@
 				A66C5809193A0C3C009D2BD4 /* CCNodeTag */,
 				A66C580A193A0C44009D2BD4 /* CCDictionary */,
 				A66C580B193A0C4E009D2BD4 /* CCSpine */,
+				D3950ACC19F5D69100A72CF7 /* CCStaticNode */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -617,7 +639,7 @@
 		A6C357B31948CC8A00E4FD04 /* Cocos2D */ = {
 			isa = PBXGroup;
 			children = (
-				A66A4D1B1948C51A005FF794 /* cocos2d-ios.xcodeproj */,
+				D3950AD619F5DFB000A72CF7 /* cocos2d.xcodeproj */,
 			);
 			name = Cocos2D;
 			sourceTree = "<group>";
@@ -629,6 +651,28 @@
 				A6D883A7193C7BA500CE3922 /* cards.classic.png */,
 			);
 			name = Cards;
+			sourceTree = "<group>";
+		};
+		D3950ACC19F5D69100A72CF7 /* CCStaticNode */ = {
+			isa = PBXGroup;
+			children = (
+				D3950ACD19F5D69100A72CF7 /* CCStaticNode.h */,
+				D3950ACE19F5D69100A72CF7 /* CCStaticNode.m */,
+				D3950ACF19F5D69100A72CF7 /* README.md */,
+			);
+			name = CCStaticNode;
+			path = Extensions/CCStaticNode;
+			sourceTree = SOURCE_ROOT;
+		};
+		D3950AD719F5DFB000A72CF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3950AE419F5DFB100A72CF7 /* libcocos2d.a */,
+				D3950AE619F5DFB100A72CF7 /* libcocos2dAndroid.a */,
+				D3950AE819F5DFB100A72CF7 /* cocos2dJava.jar */,
+				D3950AEA19F5DFB100A72CF7 /* libcocos2d-mac.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -645,7 +689,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A6C97E5E1948C83700942713 /* PBXTargetDependency */,
+				D3950AEC19F5DFBD00A72CF7 /* PBXTargetDependency */,
 			);
 			name = "cocos2d-iphone-ext";
 			productName = "cocos2d-iphone-ext";
@@ -673,8 +717,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = A66A4D1C1948C51A005FF794 /* Products */;
-					ProjectRef = A66A4D1B1948C51A005FF794 /* cocos2d-ios.xcodeproj */;
+					ProductGroup = D3950AD719F5DFB000A72CF7 /* Products */;
+					ProjectRef = D3950AD619F5DFB000A72CF7 /* cocos2d.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -685,11 +729,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		A66A4D221948C51A005FF794 /* libcocos2d.a */ = {
+		D3950AE419F5DFB100A72CF7 /* libcocos2d.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libcocos2d.a;
-			remoteRef = A66A4D211948C51A005FF794 /* PBXContainerItemProxy */;
+			remoteRef = D3950AE319F5DFB100A72CF7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D3950AE619F5DFB100A72CF7 /* libcocos2dAndroid.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcocos2dAndroid.a;
+			remoteRef = D3950AE519F5DFB100A72CF7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D3950AE819F5DFB100A72CF7 /* cocos2dJava.jar */ = {
+			isa = PBXReferenceProxy;
+			fileType = compiled.java.jar;
+			path = cocos2dJava.jar;
+			remoteRef = D3950AE719F5DFB100A72CF7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D3950AEA19F5DFB100A72CF7 /* libcocos2d-mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d-mac.a";
+			remoteRef = D3950AE919F5DFB100A72CF7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -780,14 +845,17 @@
 				A6994F7C194A2D4F00B97481 /* CCCropNode.m in Sources */,
 				A6994F84194A2FAC00B97481 /* CCSpineTest.m in Sources */,
 				0E57EA3E19C6D272008CBC9E /* CCSpriteGridTest.m in Sources */,
+				D3950AD419F5DBCF00A72CF7 /* CCStaticNodeTest.m in Sources */,
 				A66C5833193A0C87009D2BD4 /* CCSpineBone.m in Sources */,
 				0E57EA3B19C6CF9B008CBC9E /* CCSpriteGrid.m in Sources */,
 				A66C5811193A0C77009D2BD4 /* CCDictionary.m in Sources */,
 				A6994F8B194A2FBB00B97481 /* spineNode.m in Sources */,
 				A68895AF1949A8B4002950DD /* CCTransformationNode.m in Sources */,
+				D3950AD019F5D69100A72CF7 /* CCStaticNode.m in Sources */,
 				A627126D19375F2700196BD3 /* MainMenu.m in Sources */,
 				A66C5830193A0C87009D2BD4 /* CCSpineAnimation.m in Sources */,
 				0EF602FD199CDC8F007AEBD9 /* CCLayerSmoothLine.m in Sources */,
+				D3950AD119F5D69100A72CF7 /* README.md in Sources */,
 				A66C5835193A0C87009D2BD4 /* CCSpineSkeleton.m in Sources */,
 				A66C5836193A0C87009D2BD4 /* CCSpineSkin.m in Sources */,
 				0E9A092A199CDDD10049E409 /* CCLayerSmoothLineTest.m in Sources */,
@@ -803,10 +871,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A6C97E5E1948C83700942713 /* PBXTargetDependency */ = {
+		D3950AEC19F5DFBD00A72CF7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = cocos2d;
-			targetProxy = A6C97E5D1948C83700942713 /* PBXContainerItemProxy */;
+			name = "cocos2d-ios";
+			targetProxy = D3950AEB19F5DFBD00A72CF7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
